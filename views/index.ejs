@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en-us" class="notranslate" translate="no">
+  <head>
+    <meta charset="utf-8" />
+    <title>Notification Example</title>
+  </head>
+  <body>
+    <form action="/notify" method="post">
+      <input type="text" name="storeId" placeholder="Store ID" />
+      <input type="text" name="userId" placeholder="User ID" />
+      <input placeholder="Notification Title" type="text" name="title" />
+      <input placeholder="Notification Text" type="text" name="message" />
+      <input type="checkbox" name="actions" id="actions" /><label for="actions"
+        >Has actions?</label
+      >
+      <button type="submit">Notify</button>
+    </form>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

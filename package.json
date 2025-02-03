@@ -1,0 +1,26 @@
+{
+  "name": "browser-notification",
+  "version": "0.0.1",
+  "main": "http.mjs",
+  "type": "module",
+  "scripts": {
+    "dev": "npm run http-dev",
+    "http-dev": "node ./http.mjs",
+    "watch": "npm-watch"
+  },
+  "watch": {
+    "dev": {
+      "patterns": [
+        "http.mjs",
+        "public/**/*"
+      ]
+    }
+  },
+  "license": "nolicense",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "npm-watch": "^0.13.0",
+    "web-push": "^3.6.7"
+  }
+}

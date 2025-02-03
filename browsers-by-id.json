@@ -1,0 +1,8 @@
+{
+  "1517786-1156412-6cb6ef1d1f2b71928025ddcea6c6acfd": {
+    "userId": 1517786,
+    "storeId": 1156412,
+    "fingerprint": "6cb6ef1d1f2b71928025ddcea6c6acfd",
+    "pushSubscription": "{\"endpoint\":\"https://fcm.googleapis.com/fcm/send/x:x\",\"expirationTime\":null,\"keys\":{\"p256dh\":\"x\",\"auth\":\"x\"}}"
+  }
+}
